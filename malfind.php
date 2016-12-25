@@ -96,6 +96,7 @@ if( isset( $_REQUEST[ 'submit' ] ) ) {
         <li><?php echo htmlspecialchars( '/^(\s*\n)(<\?php)/' ); ?></li>
         <li><?php echo htmlspecialchars( '/(eval\()(.*)(base64_decode\()(.*)(\)\);)/' ); ?></li>
         <li><?php echo htmlspecialchars( '/(\<script)(.*)(src=")(.*)collect.js(.*)(\/script\>)/' ); ?></li>
+        <li><?php echo htmlspecialchars( '/(eval)(.*)(\()(.*)(\)(.*);)/' ); ?></li>
     </ul>
     <br/><br/>
     Heal ?
