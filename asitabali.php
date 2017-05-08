@@ -1,7 +1,11 @@
 <?php
-
 /**
- * List anggota ASITA di Bali
+ * LRsoft Corp.
+ * http://lrsoft.co.id
+ *
+ * Author : Zaf
+ *
+ * Crawl anggota ASITA Bali yang ada di web
  */
 
 $_csv = fopen('ASITA_BALI.csv','w');

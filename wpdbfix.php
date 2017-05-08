@@ -1,4 +1,14 @@
 <?php
+/**
+ * LRsoft Corp.
+ * http://lrsoft.co.id
+ *
+ * Author : Zaf
+ *
+ * Membersihkan Post di WordPress
+ * yang sudah terinfeksi malware
+ * berdasarkan pattern / regex
+ */
 
 define( 'WP_HOST', 'localhost' );
 define( 'WP_NAME', 'test' );
